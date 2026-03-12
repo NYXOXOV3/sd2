@@ -7,6 +7,7 @@ import Link from "next/link";
 import { Skeleton } from "@/components/ui/skeleton";
 import { UnifiedErrorDisplay } from "@/components/UnifiedErrorDisplay";
 import { Badge } from "@/components/ui/badge";
+import { useVideoInteractions } from "@/hooks/useVideoInteractions";
 
 export default function FlickReelsDetailPage() {
   const params = useParams();
