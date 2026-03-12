@@ -7,6 +7,7 @@ import { Play, ChevronLeft } from "lucide-react";
 import Link from "next/link";
 import { Skeleton } from "@/components/ui/skeleton";
 import { UnifiedErrorDisplay } from "@/components/UnifiedErrorDisplay";
+import { useVideoInteractions } from "@/hooks/useVideoInteractions";
 
 export default function FreeReelsDetailPage() {
   const params = useParams();
