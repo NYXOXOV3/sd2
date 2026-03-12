@@ -11,6 +11,7 @@ import { FreeReelsHome } from "@/components/FreeReelsHome";
 import { useLatestDramas, useTrendingDramas, useDubindoDramas } from "@/hooks/useDramas";
 import { usePlatform } from "@/hooks/usePlatform";
 import { InfiniteDramaSection } from "@/components/InfiniteDramaSection";
+import { useVideoInteractions } from "@/hooks/useVideoInteractions";
 
 export default function HomeContent() {
   const { isDramaBox, isReelShort, isShortMax, isNetShort, isMelolo, isFlickReels, isFreeReels } = usePlatform();
