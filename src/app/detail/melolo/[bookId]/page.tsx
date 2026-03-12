@@ -7,6 +7,7 @@ import { Play, ChevronLeft, Loader2 } from "lucide-react";
 import Link from "next/link";
 import { useRouter, useParams } from "next/navigation";
 import { Skeleton } from "@/components/ui/skeleton";
+import { useVideoInteractions } from "@/hooks/useVideoInteractions";
 
 export default function MeloloDetailPage() {
   const params = useParams<{ bookId: string }>();
