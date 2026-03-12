@@ -6,6 +6,7 @@ import { Play, ChevronLeft } from "lucide-react";
 import { Skeleton } from "@/components/ui/skeleton";
 import Link from "next/link";
 import { useRouter, useParams } from "next/navigation";
+import { useVideoInteractions } from "@/hooks/useVideoInteractions";
 
 export default function ShortMaxDetailPage() {
   const params = useParams<{ shortPlayId: string }>();
